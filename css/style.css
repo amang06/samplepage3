@@ -669,5 +669,57 @@
     .card .cardbody .info h7 {
         font-size: 15px;
     }
+    .card-holder .set-location .recomend-tab .recomend {
+        display: flex;
+    }
+    .card-holder .set-location .recomend-tab .header {
+        display:flex;
+        margin-top:30px;
+    }
+    .card-holder .set-location .recomend-tab .header h4 {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .card-holder .set-location .recomend-tab .header img {
+        height: 20px;
+    }
+    .card-holder .set-location .recomend-tab a {
+        float:right;
+        margin-top: 20px;
+        font-size: 15px;
+        color: royalblue;
+    }
+    .card-holder .set-location .recomend-tab .recomend {
+        display: inline;
+        padding-top: 10px;
+    }
+    .card-holder .set-location .recomend-tab .recomend .avatar {
+        float: left;
+    }
+    .card-holder .set-location .recomend-tab .recomend h5{
+        margin-top:5px;
+        font-size: 15px;
+    }
+    .card-holder .set-location .recomend-tab .recomend .follow {
+        float:right;
+        margin-top:-30px;
+        padding:5px;
+    }
+    .card-holder .set-location .recomend-tab .recomend .follow button {
+        border:none;
+        
+        border-radius: 25px;
+        background-color: rgba(0,0,0,0.1);
+    }
+    .card-holder .set-location .recomend-tab .recomend .followed {
+        float:right;
+        margin-top:-30px;
+        padding:5px;
+    }
+    .card-holder .set-location .recomend-tab .recomend .followed button {
+        border:none;
+        border-radius: 25px;
+        background-color: rgba(0,0,0,0.1);
+    }
 
 }
